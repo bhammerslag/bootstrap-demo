@@ -18,11 +18,12 @@ $( document ).ready(function() {
   $("ul.nav li a").click(function(){
     //Debug print stand-in:
     //alert($(this).attr("href"));
-    $($(this).attr("href")).animateCss("bounceIn");
-
+    var $target = $(this).attr("href");
+    //alert($target);
+    $($target).animateCss("bounceIn");
   });
 
-  //$(".navbar-btn").css("margin", "5px");
+  $(".col-sm-4").css("padding-top", "-1000px");
 
   $('.nav a').on('click', function(){
     $('.navbar-toggle').click()
