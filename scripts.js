@@ -15,13 +15,14 @@ $( document ).ready(function() {
   * When button is pressed, grab some info indicating the div to animate
   * Then do it
   */
-  $(".navbar-btn a").click(function(){
+  $("ul.nav li a").click(function(){
     //Debug print stand-in:
     //alert($(this).attr("href"));
-    $($(this).attr("href")).animateCss("tada");
+    $($(this).attr("href")).animateCss("bounceIn");
+
   });
 
-  $(".navbar-btn").css("margin", "5px");
+  //$(".navbar-btn").css("margin", "5px");
 
   $('.nav a').on('click', function(){
     $('.navbar-toggle').click()
