@@ -23,4 +23,8 @@ $( document ).ready(function() {
 
   $(".navbar-btn").css("margin", "5px");
 
+  $('.nav a').on('click', function(){
+    $('.navbar-toggle').click()
+});
+
 });
