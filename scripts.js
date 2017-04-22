@@ -21,4 +21,6 @@ $( document ).ready(function() {
     $($(this).attr("href")).animateCss("tada");
   });
 
+  $(".navbar-btn").css("margin", "5px");
+
 });
