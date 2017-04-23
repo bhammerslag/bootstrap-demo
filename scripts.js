@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-  $.fn.extend({
+  $.fn.extend({ //taken from the creator of animate.css
     animateCss: function (animationName) {
       var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
       this.addClass('animated ' + animationName).one(animationEnd, function() {
@@ -16,14 +16,9 @@ $( document ).ready(function() {
   * Then do it
   */
   $("ul.nav li a").click(function(){
-    //Debug print stand-in:
-    //alert($(this).attr("href"));
     var $target = $(this).attr("href");
-    //alert($target);
     $($target).animateCss("bounceIn");
   });
-
-  $(".col-sm-4").css("padding-top", "-1000px");
 
   $('.nav a').on('click', function(){
     $('.navbar-toggle').click()
