@@ -25,10 +25,6 @@ $( document ).ready(function() {
     $($target).animateCss("bounceIn");
   });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   $('.nav a').on('click', function(){
     $('.navbar-toggle').click()
 });
