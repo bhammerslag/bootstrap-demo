@@ -1,0 +1,46 @@
+
+
+@font-face {
+    font-family: 'ddc_hardware_regular';
+    src: url('ddchardware-regular-webfont.eot');
+    src: url('ddchardware-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ddchardware-regular-webfont.woff2') format('woff2'),
+         url('ddchardware-regular-webfont.woff') format('woff'),
+         url('ddchardware-regular-webfont.ttf') format('truetype'),
+         url('ddchardware-regular-webfont.svg#ddc_hardware_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ddc_hardware_condensed';
+    src: url('ddchardware-condensed-webfont.eot');
+    src: url('ddchardware-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ddchardware-condensed-webfont.woff2') format('woff2'),
+         url('ddchardware-condensed-webfont.woff') format('woff'),
+         url('ddchardware-condensed-webfont.ttf') format('truetype'),
+         url('ddchardware-condensed-webfont.svg#ddc_hardwarecondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ddc_hardware_compressed';
+    src: url('ddchardware-compressed-webfont.eot');
+    src: url('ddchardware-compressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ddchardware-compressed-webfont.woff2') format('woff2'),
+         url('ddchardware-compressed-webfont.woff') format('woff'),
+         url('ddchardware-compressed-webfont.ttf') format('truetype'),
+         url('ddchardware-compressed-webfont.svg#ddc_hardwarecompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
