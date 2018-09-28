@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/uwqlblxl/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp scripts.js $DEPLOYPATH
-    - /bin/cp ./fonts $DEPLOYPATH/fonts
+    - /bin/cp /fonts/. $DEPLOYPATH/fonts
