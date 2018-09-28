@@ -7,6 +7,24 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <title>Ben Hammerslag's Bootstrap Demo</title>
+  <link rel="stylesheet" href="fonts/hardware_fonts.css">
+  <style>
+    .jumbotron h1 {
+      font-family: 'ddc_hardware_regular';
+    }
+
+    .jumbotron h2 {
+      font-family: 'ddc_hardware_condensed'
+    }
+
+    .col-sm-4 h3, .col-md-4 h3 {
+      font-family: 'ddc_hardware_compressed'
+    }
+
+    div p {
+      font-family: 'futura'
+    }
+  </style>
   <!--FontAwesome for more icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Animate.css for animations-->
@@ -65,20 +83,24 @@
     <div class="row">
       <div class="col-sm-4" id="how-info">
         <h3>How was this made?</h3>
-        <p>Using only the finest artisinal bits. No animals were
+        <p>Using only the finest artisinal bits, as organized by Bootstrap. Content fell out of my head in a mostly sensible order.</p>
+        <p>Animations by <a href='https://github.com/daneden/animate.css'>Daniel Eden</a>,
+        icons by <a href='https://fontawesome.com/'>FontAwesome</a></p>
+        <p>No animals were
           harmed in the creation of this website (some cats were pet, however).</p>
         </div>
         <div class="col-sm-4" id="why-info">
           <h3>Why was this made?</h3>
           <p>To prove I can make a simple site from scratch in an afternoon while
-            watching a baby and doing some laundry. OK -- that was true enough
-            at the time I wrote it. But by now it's been a few afternoons of
-            adding animation, navbars, etc.</p>
+            watching a baby and doing some laundry. And then to give myself awesome
+          practice with git, setting up remote deployments, and so on.</p>
+          <p>Plus, everyone should have a website, right?</p>
           </div>
           <div class="col-sm-4" id="project-info">
             <h3>What else can you make?</h3>
             <p>I'm not picky. A Python script, Mathematica functions,
-              Java methods, whatever. Websites like this one.</p>
+              SQL queries, JIRA Projects, whatever. Websites like this one (and no better!).</p>
+              <p>If you'd like me to make something for you, get in touch!</p>
             </div>
           </div>
           <hr/>
@@ -98,6 +120,10 @@
                   <tr>
                     <td><p><strong>TV Ad Campaign:</strong></p></td>
                     <td><p>Your best bet is an Arizona Cardinals game, or maybe Star Trek re-runs.</p></td>
+                  </tr>
+                  <tr>
+                    <td><p><strong>Shortwave Broadcast:</strong></p></td>
+                    <td><p>4625 kHz</p></td>
                   </tr>
                 </tbody>
               </table>
@@ -119,6 +145,8 @@
             <div class="col-md-4" id="question-info">
               <h3>Is everything on here a question?</h3>
               <p>Sure looks that way.</p>
+              <p>I don't have all the answers, but it's definitely easier to look smart
+                when you're also the person writing all the questions.</p>
             </div>
           </div> <!--End of Container-->
 
